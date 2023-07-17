@@ -18,7 +18,7 @@ class Dog extends Animal {
         super("Bulldog")
     }
     bark(){
-        console.log("woof")  
+        console.log(`${this.species} barks`)  
     }
 }
 
@@ -27,7 +27,7 @@ class Cat extends Animal {
         super("Persian cat")
     }
     purr(){
-        console.log("purr")  
+        console.log(`${this.species} mews`)  
     }
 }
 
